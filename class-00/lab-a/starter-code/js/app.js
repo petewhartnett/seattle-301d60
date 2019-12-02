@@ -77,6 +77,7 @@ function showList() {
     liEl.textContent = `${allProducts[i].name} has   ${allProducts[i].votes}  votes in ${allProducts[i].views}  views`;
     list.appendChild(liEl);
   }
+  
 }
 
 function makeChartData(){
